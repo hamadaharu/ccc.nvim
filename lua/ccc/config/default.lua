@@ -37,6 +37,7 @@ return {
     output.hex_short,
     output.css_rgb,
     output.css_hsl,
+    output.hex_0x,
   },
   pickers = {
     picker.hex,
@@ -90,7 +91,7 @@ return {
         [picker.hex]       = { input.rgb,   output.hex       },
         [picker.hex_long]  = { input.rgb,   output.hex       },
         [picker.hex_short] = { input.rgb,   output.hex_short },
-        [picker.hex_0x]    = { input.rgb,   output.hex       },
+        [picker.hex_0x]    = { input.rgb,   output.hex_0x    },
         [picker.css_hsl]   = { input.hsl,   output.css_hsl   },
         [picker.css_hwb]   = { input.hwb,   output.css_hwb   },
         [picker.css_lab]   = { input.lab,   output.css_lab   },
